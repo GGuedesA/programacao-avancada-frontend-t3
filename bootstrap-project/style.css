@@ -52,7 +52,7 @@ p, li {
 }
 
 #about-list i {
-  color: #4973f2;
+  color: #f2911b;
   margin-right: 15px;
 }
 
@@ -79,7 +79,7 @@ p, li {
 }
 
 .service-box:hover > i, .service-box:hover > h3 {
-  color: #4973f2;
+  color: #f2911b;
 }
 
 .service-box i, .service-box h3 {
@@ -90,7 +90,7 @@ p, li {
 #data-area p{
   font-size: 20px;
   color: white;
-
+  margin-bottom: 65px;
 }
 
 
@@ -135,9 +135,41 @@ p, li {
 }
 
 #botao:hover{
-  background-color: #4973f2;
+  background-color: #f2911b;
 }
 
 #botao{
   transition: 1s;
+}
+
+/* Area de Projetos */
+#projects{
+  width: 75%;
+}
+.project-box{
+  margin-bottom: 30px;
+}
+
+#project-btn{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#projects .filter-btn{
+  color: #444;
+  border: 1px solid #444;
+  background-color: transparent;
+  text-transform: none;
+  margin: 0 15px;
+  min-width: 100px;
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+}
+
+#projects .filter-btn.active, #projects .filter-btn:hover{
+  color:#f2f2f2;
+  border: 1px solid #0c0c0c;
+  background-color: #0c0c0c;
 }

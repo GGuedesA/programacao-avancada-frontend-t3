@@ -8,7 +8,7 @@ let containerA = new ProgressBar.Circle(circleA, {
     autoStyleContainer: true
   },
   from: { color: '#aaa', width: 1 },
-  to: { color: '#4973f2', width: 4 },
+  to: { color: '#f2911b', width: 4 },
   // Set default step function for all animate calls
   step: function(state, circle) {
     circle.path.setAttribute('stroke', state.color);
@@ -35,7 +35,7 @@ let containerB = new ProgressBar.Circle(circleB, {
     autoStyleContainer: true
   },
   from: { color: '#aaa', width: 1 },
-  to: { color: '#4973f2', width: 4 },
+  to: { color: '#f2911b', width: 4 },
   // Set default step function for all animate calls
   step: function(state, circle) {
     circle.path.setAttribute('stroke', state.color);
@@ -61,7 +61,7 @@ let containerC = new ProgressBar.Circle(circleC, {
     autoStyleContainer: true
   },
   from: { color: '#aaa', width: 1 },
-  to: { color: '#4973f2', width: 4 },
+  to: { color: '#f2911b', width: 4 },
   // Set default step function for all animate calls
   step: function(state, circle) {
     circle.path.setAttribute('stroke', state.color);
@@ -87,7 +87,7 @@ let containerD = new ProgressBar.Circle(circleD, {
     autoStyleContainer: true
   },
   from: { color: '#aaa', width: 1 },
-  to: { color: '#4973f2', width: 4 },
+  to: { color: '#f2911b', width: 4 },
   // Set default step function for all animate calls
   step: function(state, circle) {
     circle.path.setAttribute('stroke', state.color);
